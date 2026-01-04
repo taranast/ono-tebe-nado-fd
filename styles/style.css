@@ -1,1 +1,61 @@
-/* место для вашего кода */
+header,
+footer {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 115%;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 120%;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.header {
+  padding: 92px 50px 96px;
+}
+
+.cover {
+  padding: 165px 50px 50px;
+  background-image: url('../images/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lots {
+  margin: 180px 24px 120px;
+}
+
+.about {
+  margin: 0 24px 180px;
+  padding-top: 35px;
+}
+
+.footer {
+  padding: 0 50px 82px;
+}
