@@ -38,6 +38,41 @@ button {
 
 .header {
   padding: 92px 50px 96px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32.74px;
+}
+
+.header__links-list-item:not(.header__links-list-item_no-bullit) {
+  list-style: circle;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 136px;
+  height: 105px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.header__address {
+  justify-self: end;
+  max-width: 236.49px;
 }
 
 .cover {
