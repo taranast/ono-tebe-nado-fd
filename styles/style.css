@@ -77,24 +77,24 @@ button {
 
 .cover {
   position: relative;
+  z-index: 1;
   min-height: 757px;
   padding: 165px 50px 50px;
   background-image: url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-position: 50% 0%;
   background-size: cover;
-  z-index: 1;
 }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
   opacity: 60%;
   background-color: #000000;
-  z-index: -1;
 }
 
 .cover__title, .cover__description {
@@ -181,6 +181,7 @@ button {
 
 .card {
   position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -188,7 +189,6 @@ button {
   padding: 48px 40px;
   background-position: center;
   background-size: cover;
-  z-index: 1;
 }
 
 .card_type_film {
