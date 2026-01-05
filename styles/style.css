@@ -37,10 +37,10 @@ button {
 }
 
 .header {
-  padding: 92px 50px 96px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
+  padding: 92px 50px 96px;
 }
 
 .header__links-list {
@@ -76,14 +76,14 @@ button {
 }
 
 .cover {
-  padding: 165px 50px 50px;
-  background-image: url('../images/cover.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 0%;
   position: relative;
   z-index: -1;
   min-height: 757px;
+  padding: 165px 50px 50px;
+  background-image: url('../images/cover.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
 }
 
 .overlay {
@@ -99,8 +99,8 @@ button {
 
 .cover__title, .cover__description {
   position: relative;
-  color: #FFFFFF;
   z-index: 1;
+  color: #FFFFFF;
 }
 
 .aligned-text {
@@ -139,8 +139,8 @@ button {
   font-weight: 500;
   font-size: 22px;
   line-height: 28px;
-  word-spacing: 18.5px;
   text-transform: uppercase;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -205,8 +205,8 @@ button {
 
 .card__title, .card__text {
   position: relative;
-  color: #FFFFFF;
   z-index: 1;
+  color: #FFFFFF;
 }
 
 .card__text {
@@ -222,11 +222,11 @@ button {
 }
 
 .about {
-  margin: 0 24px 180px;
-  padding-top: 35px;
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 24px;
+  margin: 0 24px 180px;
+  padding-top: 35px;
 }
 
 .about__logo {
@@ -259,10 +259,10 @@ button {
 }
 
 .footer {
-  padding: 0 50px 82px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
+  padding: 0 50px 82px;
 }
 
 .footer__menu {
